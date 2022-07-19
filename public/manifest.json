@@ -10,7 +10,8 @@
     {
       "src": "logo192.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose": ""
     },
     {
       "src": "logo512.png",
@@ -19,7 +20,16 @@
     }
   ],
   "start_url": ".",
+  "display_override": ["standalone", "fullscreen"],
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "categories": ["fintech", "digital loan"],
+  "dir": "ltr",
+  "description": "Esta es una aplicaciòn digital de nanocrèditos de persona a persona",
+  "lang": "es",
+  "orientation": "portrait",
+  "prefer_related_applications": false,
+  "scope": "/",
+  "start-url": "/"
 }
